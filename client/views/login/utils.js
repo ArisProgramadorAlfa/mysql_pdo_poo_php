@@ -32,9 +32,13 @@ function fetchPost(email, password){
         mode: 'cors',
       };
     
-    fetch(url, requestOptions).then(res => res.text() )
+    fetch(url, requestOptions).then(res => res.json() )
     .then(response => {
-        console.log(response);
+        if(response.ok){
+            alert(response.message);
+        } else {
+            alert("Usuario o contraseña inválidos.");
+        }
     })
     .catch(error => console.log('Error:' + error));
 }
