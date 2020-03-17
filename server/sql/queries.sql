@@ -43,17 +43,17 @@ INSERT INTO users(
     password
 ) VALUES (
     'Andrés',
-    'Rojas',
+    'Lopez',
     'andres@gmail.com',
-    '1989-08-05',
-    '5570464001',
-    'Virgen de la concepción',
+    '1993-02-15',
+    '5511112222',
+    'Street 99',
     186,
-    'Colonia virgencitas',
-    'Nezahualcóyotl',
-    '57300',
-    'Estado de México',
-    'https://scontent-qro1-1.xx.fbcdn.net/v/t1.0-9/12105918_992181680848124_2252189656497965116_n.jpg?_nc_cat=109&_nc_sid=85a577&_nc_ohc=PxAco5PVfMUAX_N6T93&_nc_ht=scontent-qro1-1.xx&oh=1b9ceaa8ac6e26b1fbfdee7bd47e9f7f&oe=5E95FFF8'
+    'Colonia Lomas',
+    'Ecatepec',
+    '06300',
+    'CDMX',
+    '',
     '123456'
 );
 
@@ -72,15 +72,15 @@ INSERT INTO users(
     picture
 ) VALUES (
     'Aris',
-    'Suárez',
+    'Mendoza',
     'aris@gmail.com',
-    '1989-08-05',
-    '5570464001',
-    'Virgen de la concepción',
+    '1990-06-23',
+    '5511113333',
+    'Street 64',
     186,
-    'Colonia virgencitas',
-    'Nezahualcóyotl',
-    '57300',
+    'Lomas',
+    'Ixtapaluca',
+    '06980',
     'Estado de México',
-    'https://scontent.fmex5-1.fna.fbcdn.net/v/t1.0-9/88344355_2946853435380929_6294056972064915456_n.jpg?_nc_cat=108&_nc_sid=dd9801&_nc_ohc=8TyJDcppbaUAX8OmC22&_nc_ht=scontent.fmex5-1.fna&oh=c58da821287f0f18eb95bc214479a2e5&oe=5E94BF60'
+    ''
 );
